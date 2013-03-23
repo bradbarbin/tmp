@@ -1,0 +1,42 @@
+{
+    "inspiration_subHeadline"    : "NEXT GLASS",    
+
+    "chapter1_headline"          : "WINE GENOME CELLAR",
+    "chapter1_mobile_headline"   : "Wine Genome Cellar",
+    "chapter1_subHeadline"       : "DNA DATABASE",
+    "chapter1_copy_column1"      : "",
+    "chapter1_copy_column2"      : "The World's Only Wine DNA Database",
+    "chapter2_headline"          : "RE-IMAGINED\nCANVASES",
+
+    "chapter2_mobile_headline"   : "Reimagined Canvases",
+	"chapter2_subHeadline"       : "Growing New Ideas in Familiar Ground",
+    "chapter2_copy_column1"      : "Innovation doesn't always have to mean inventing something new. Bringing fresh thinking to established media and ad formats can be an easy and inexpensive way to stand out in a connected world.",
+    "chapter2_copy_column2"      : "Sometimes itâ€™s about the unexpected marriage of an idea and an existing technology. Or it can be a matter of taking a well-known ad space and making it sing with an innovative creative approach. Whether youâ€™re crafting surprising experiences with pre- roll, giving the classic printed circular an online dimension, or simply bringing wit and charm to search ads, there are plenty of opportunities on the modern web that are coding-optional.",
+
+    "chapter3_headline"          : "AUDIENCES\nOF ONE",
+
+    "chapter3_mobile_headline"   : "Audiences of One",
+    "chapter3_subHeadline"       : "Crafted Just for You",
+    "chapter3_copy_column1"      : "People can now decide if, when and how they interact with brands. Consequently, our definition of great creative work is changing. Today, people can choose the ads they want to engage with, which opens the door to fresh thinking about how to make them more relevant.",
+    "chapter3_copy_column2"      : "The best storytellers have always been able to make us feel as if theyâ€™re speaking to each one of us individually. Can technology take that idea further? Using real-time data and cues like time of day, location and interests, we can already tailor and personalize ads in ways that make them more valuable and meaningful. Instead of creating messages aimed at audiences, consumer segments and personas, we can now simply talk to people the way they want to be talked to. How wonderfully old fashioned.",
+
+    "chapter4_headline"          : "COLLABORATIVE\nSTORYTELLING",
+
+    "chapter4_mobile_headline"   : "Collaborative Storytelling",
+    "chapter4_subHeadline"       : "The Audience is Part of The Show",
+    "chapter4_copy_column1"      : "Itâ€™s an old maxim that ideas can come from anyone and anywhere, but the web has been great proof of it. Given the opportunity, people have consistently surprised us with their boundless creativity. In traditional media, audiences are passive spectators. They sit back and watch a story created by someone else. But on the web, we can harness their desire to co-create with us by building platforms that bring ideas to life which could never be accomplished alone. More and more, inspiring this kind of participation is going to be crucial for brands.",
+    "chapter4_copy_column2"      : "By putting a piece of themselves into the work to create something meaningful, consumers forge deeper connections with brands. So it only makes sense that we should embrace them, encourage them and give them the tools to create alongside us. In other words, we build the sandbox â€“ and they fill it with really amazing sandcastles.",
+
+    "chapter5_headline"          : "USEFUL\nMARKETING",
+    "chapter5_mobile_headline"   : "Useful Marketing",
+    "chapter5_subHeadline"       : "Creating Tools, Not Just Ads",
+    "chapter5_copy_column1"      : "Marketing has become less about talking and more about doing. While ideas about branded utility have been tossed around for a while, lately theyâ€™ve been getting more serious attention. Brands, even the non-techy ones, are launching mobile, web and hardware products. And these products are being built by agencies, though youâ€™d be forgiven for thinking theyâ€™re the result of Silicon Valley hackathons rather than traditional marketing campaigns.",
+
+    "chapter5_copy_column2"      : "Tools that make peopleâ€™s lives easier, more productive and more fun can bring a brandâ€™s promise to life in tangible ways. Whether theyâ€™re leveraging data to help users exercise more, tracking a pizza delivery, or making driving a social experience, the most loved brands of the future will create real value for their audiences through marketing.",
+
+    "chapter6_headline"          : "DATA\nSTORIES",
+    "chapter6_mobile_headline"   : "Data Stories",
+    "chapter6_subHeadline"       : "The Emotional Life of Numbers",
+    "chapter6_copy_column1"      : "Every day, we create 2.5 quintillion (thatâ€™s 2,500,000,000,000,000,000) bytes of data. To put that in perspective, ninety percent of the data in the world today has been created in the last two years. Itâ€™s a crazy thought, but itâ€™s also an exciting one.",
+	"chapter6_copy_column2"      : "We've begun using this knowledge for things like beautiful data visualizations and targeted messaging, but we've only scratched the surface of what's possible. In the right hands, data can be used to tell emotional stories that grow and change over time. And, because data-driven executions are grounded in cold, hard facts, they're tough to argue with. Which is also kind of a plus."
+}
