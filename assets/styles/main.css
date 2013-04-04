@@ -676,6 +676,12 @@ padding: 40px 0; }
   .projectViewShoe .projectTitle {
     font-size: 40px;
     width: 500px; } }
+
+@media screen and (max-width:767px){
+  .footer{
+    padding:0 50px;
+  }
+}
 @media screen and (max-width:640px) {
   .projectViewShoe .projectTitle {
     font-size: 30px; } }
@@ -747,7 +753,7 @@ padding: 40px 0; }
 .footer {
 text-align: left;
 background-color: rgba(108, 100, 100, 0.9);
-height: 500px;
+min-height: 300px;
 margin: 0;
 position:relative;
 z-index:9999;
@@ -865,7 +871,7 @@ margin-bottom: 50px;}
     margin: 20px auto;
     width: 50px;
     height: 50px;
-    background-color: rgba(255, 41, 41, 0.2);
+    background-color: rgba(0, 167, 164, 0.2);
     background-image: url("../images/playBTN.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -887,7 +893,7 @@ margin-bottom: 50px;}
   /* Safari and Chrome */
   -o-transition: .2s;
   /* Opera */
-  background-color: rgba(255, 41, 41, 0.8); }
+  background-color: rgba(0, 167, 164, 0.8); }
 
 #credits {
   position: fixed;
@@ -989,7 +995,7 @@ html, body {
   position: relative; }
 
 body {
-  background-color: white; }
+  background-color: #f2f2f2; }
 
 .bodyCopy {
   width: 90%;
@@ -1156,7 +1162,7 @@ body {
   font-size: 100px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  color: white;
+  color: #f2f2f2;
   line-height: 100%;
   padding-top: 25px;
   width: 90%;
@@ -1165,8 +1171,7 @@ body {
 .headlineImage .subheadline {
   font-size: 25px;
   font-weight: 300;
-  font-style: italic;
-  color: white;
+  color: #f2f2f2;
   line-height: 26px;
   margin-top: 4%;
   padding-bottom: 0; }
@@ -1405,6 +1410,219 @@ margin: auto;} }
   margin-bottom: 0;
   text-align: left; }
 
+
+#hiw-main .headlineImage{
+  height:500px;
+  background: url(../images/hiw/hiw-main.jpg) no-repeat;
+}
+
+.hiw-bucket{
+  background:#FFF;
+  min-height:480px;
+  float:left;
+  width:47%;
+  /* Opera */
+  -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin-bottom:30px;
+position: relative;
+margin-top:60px;
+}
+
+.hiw-bucket:first-child{
+  margin-right:4%;
+}
+
+.hiw-icons{
+  position: absolute;
+  top:-24%;
+  left:50%;
+  margin-left:-25%;
+}
+
+.hiw-bucket > .hiw-inner{
+  padding:100px 15px 15px;
+}
+#science h3{
+  font-size:28px;
+  color:#00A8A4;
+  text-align:center;
+  text-transform: uppercase;
+}
+#technology h3, #any-device h3{
+  font-size:28px;
+  color:#f22e2e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#hiw-2{
+  min-height: 500px;
+}
+
+#any-device h3{
+  padding-top:20px;
+}
+
+.screen{
+  position: absolute;
+width: 100%;
+z-index: 2;
+background: url(http://packlove.com/static/images/screen.png);
+}
+
+#wing-1 .screen {
+  padding-bottom:39%;
+}
+#wing-2 .screen, #wing-3 .screen, #wing-4 .screen, #who-1 .screen, #who-2 .screen, #careers-1 .screen{
+  padding-bottom: 38%;
+}
+
+
+#wing-1 .headlineImage{
+  background:url(../images/wing/wing1.jpeg) no-repeat;
+  height:480px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wing-2 .headlineImage{
+  background:url(../images/wing/wing2.jpeg) no-repeat;
+  height:462px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wing-3 .headlineImage{
+  background:url(../images/wing/wing3.jpeg) no-repeat;
+  height:462px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wing-4 .headlineImage{
+  background:url(http://carlsoncreek.com/wp-content/uploads/2012/11/vineyard413.jpg) no-repeat;
+  height:462px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#who-1 .headlineImage{
+  background:url(../images/wing/wing3.jpeg) no-repeat;
+  height:462px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#who-2 .row-fluid{
+  padding-top:30px;
+}
+
+#who-2 .headlineImage{
+  background:#00A8A4;
+  height:462px;
+}
+
+#who-2 .photo img{
+   -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+
+#who-2 .photo h4{
+  color:#00A8A4;
+  text-transform: uppercase;
+
+}
+
+#who-2 .bio {
+  background:white;
+     -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+padding:10px 28px;
+}
+
+#careers-intro .centeredHome h2{
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+#careers-1 .headlineImage{
+  background: url(http://www.bookloversinc.com/wp-content/uploads/2012/01/Historic-Riverwalk-Wilmington-NC_mr.jpg);
+  height:462px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#careers-2{
+  width:100%;
+  background:#e7e5dc;
+  position:relative;
+  z-index: 88;
+}
+
+#careers-2 .row-fluid{
+  padding:20px 0;
+}
+
+#careers-2 h2{
+  color: #f22e2e;
+text-transform: uppercase;
+text-align: center;
+font-size: 26px;
+letter-spacing: 1px;
+}
+
+#careers-2 h5{
+  font-size: 18px;
+}
+
+#careers-2 .span3{
+  padding:0 10px;
+}
+
+#careers-2 .qualifications{
+  background:#FFF;
+  background:rgba(255,255,255,0.5);
+       -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+margin:4px;
+}
+
+#careers-2 .qualifications ul{
+padding:8px 0;
+margin-left:0;
+list-style: none;
+}
+
+#careers-2 .qualifications ul li{
+  padding:4px 15px;
+
+}
+
+
+#careers-3.mainViewContainer{
+  min-height:300px;
+}
+
+
+
 .videoCloseButton {
   width: 50px;
   height: 50px;
@@ -1446,17 +1664,6 @@ margin: auto;} }
 #chapter2 .headlineImage {
   background-color: #1b81d4; }
 
-#chapter3 .headlineImage {
-  background-color: #47a440; }
-
-#chapter4 .headlineImage {
-  background-color: #fc8d00; }
-
-#chapter5 .headlineImage {
-  background-color: #fec637; }
-
-#chapter6 .headlineImage {
-  background-color: #19aee2; }
 
 .subheadline {
   position: relative; }
@@ -1479,8 +1686,29 @@ margin: auto;} }
     padding-top: 50px; }
 
   .headlineContainer {
-    padding-top: 45px; } }
+    padding-top: 45px; } 
+
+
+  .nav-collapse > .nav {
+  padding-top: 100px; }
+
+
+  .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+    box-shadow: none;
+    -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow: none;
+  }
+}
 @media screen and (max-width:960px) {
+
+
+  .screen{
+    display:none;
+  }
   .headlineImage {
     height: 278px;
     width: 100%; }
@@ -1503,6 +1731,10 @@ margin: auto;} }
   #inspiration .headline {
     padding-top: 30px; } }
 @media screen and (max-width:640px) {
+    #logo_dark{
+    width:112px;
+    height:auto;
+  }
   .navbar .container {
   width: 90%;
   margin: 0 auto;
@@ -1523,7 +1755,7 @@ margin: auto;} }
   body {
     padding-left: 0;
     padding-right: 0; }
-
+.screen{display:none;}
   .navigation {
     display: none; }
 
@@ -1661,9 +1893,6 @@ position: relative; }
     top: 0;
     margin-left: 0;
     position: relative;
-    overflow: hidden;
-    min-height: 0px;
-    height: 0px;
     padding-bottom: 0;
     max-width: 640px; }
 
@@ -1706,26 +1935,7 @@ position: relative; }
   #inspiration .mobileColor {
     background-color: #00A8A4; }
 
-  #chapter1 .mobileColor {
-    background-color: #e2392f; }
 
-  #chapter2 .mobileColor {
-    background-color: #1b81d4; }
-
-  #chapter3 .mobileColor {
-    background-color: #47a440; }
-
-  #chapter4 .mobileColor {
-    background-color: #fc8d00; }
-
-  #chapter5 .mobileColor {
-    background-color: #fec637; }
-
-  #chapter6 .mobileColor {
-    background-color: #19aee2; }
-
-  #chapter6 {
-    height: 0px; }
 
   .centerMe {
     position: absolute;
